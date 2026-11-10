@@ -1,6 +1,6 @@
-# RecallOcc
+# MemAnchorWorld
 
-A self-contained static project page for RecallOcc.
+A self-contained static project page for MemAnchorWorld.
 
 ## Run locally
 
