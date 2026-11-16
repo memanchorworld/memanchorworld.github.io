@@ -144,6 +144,12 @@ a:focus-visible { outline: 3px solid #2ab9ad; outline-offset: 3px; }
   .result-note { padding: 14px 16px; }
 }
 
+/* Manuscript narrative. */
+.method-prose { margin: 24px 0 0; color: var(--muted); font-size: 16px; line-height: 1.8; }
+.method-prose p { margin: 0 0 16px; }
+.method-prose p:last-child { margin-bottom: 0; }
+.visual-discussion { margin: 14px 0 0; }
+
 /* Manuscript table synchronization. */
 .metric-gain { color: #f00; font-size: .8em; }
 .paper-citation { color: #356d9b; font-weight: 400; font-size: .88em; }
