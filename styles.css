@@ -130,7 +130,8 @@ a:focus-visible { outline: 3px solid #2ab9ad; outline-offset: 3px; }
   .hero::before { background-position: calc(50% + 205px) bottom; background-size: auto 78%; opacity: .35; }
   .hero-inner { padding: 64px 0 44px; }
   h1 { font-size: clamp(2.05rem, 8vw, 3.25rem); }
-  .hero-metrics { gap: 18px 10px; margin-top: 44px; }
+  .hero-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 10px; margin-top: 44px; }
+  .hero-metrics > div:nth-child(2n) { border-right: 0; }
   .hero-metrics > div { min-width: 110px; padding-right: 12px; }
   .hero-metrics strong { font-size: 20px; }
   .hero-metrics span { font-size: 11px; }
