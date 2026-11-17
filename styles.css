@@ -92,6 +92,11 @@ body { background: #f3f7f8; font-family: Manrope, "Segoe UI", sans-serif; }
 .hero-inner { position: relative; padding: 88px 0 67px; }
 .eyebrow { max-width: 740px; color: #83e3d3; font-size: 12px; letter-spacing: .13em; }
 h1 { max-width: 850px; margin-top: 20px; color: #f7fcfc; font-size: clamp(2.5rem, 4.65vw, 4.1rem); font-weight: 720; letter-spacing: -.047em; line-height: 1.13; text-wrap: balance; }
+.hero-actions { display: flex; align-items: center; gap: 12px; margin-top: 24px; }
+.code-button { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 12px; border: 1px solid #93d9d0; border-radius: 8px; background: #dff9f1; color: #10314a; font-size: 16px; font-weight: 700; line-height: 24px; text-decoration: none; transition: transform 300ms cubic-bezier(.22,1,.36,1), background 300ms cubic-bezier(.22,1,.36,1); }
+.code-button:hover, .code-button:focus-visible { border-color: #b8f0e7; background: #f2fffa; transform: translateY(-2px); }
+.code-button:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+.code-button svg { width: 24px; height: 24px; fill: currentColor; }
 .hero-metrics { display: flex; flex-wrap: wrap; gap: 32px; margin-top: 56px; }
 .hero-metrics > div { display: flex; min-width: 136px; flex-direction: column; gap: 2px; padding: 0 23px 0 0; border-right: 1px solid rgba(176, 221, 220, .24); }
 .hero-metrics > div:last-child { border-right: 0; }
